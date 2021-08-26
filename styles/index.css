@@ -1,0 +1,241 @@
+/* GLOBAL */
+body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: #0A051A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1440px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  margin: auto;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  min-height: calc(100vh - 200px);
+}
+
+/* /GLOBAL */
+/* HEADER */
+.header__wrapper {
+  width: 100%;
+  height: 180px;
+}
+
+.header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 75px;
+}
+
+.header__title {
+  width: 255px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.header__title>span {
+  display: block;
+}
+
+.header__slogan {
+  width: 493px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #9E9E9E;
+}
+
+.header__phone {
+  width: 209px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+/* /HEADER */
+/* PROMOTION */
+.promotion {
+  box-sizing: border-box;
+  padding: 132px 230px;
+  margin-bottom: 98px;
+  align-self: flex-start;
+}
+
+.promotion>h1 {
+  width: 700px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 100%;
+  margin-bottom: 27px;
+}
+
+.promotion>h1>span {
+  display: block;
+  background: #ce1c9b;
+  background: -webkit-linear-gradient(to bottom, #ce1c9b 0%, #7002D0 100%);
+  background: -moz-linear-gradient(to bottom, #ce1c9b 0%, #7002D0 100%);
+  background: linear-gradient(to bottom, #ce1c9b 0%, #7002D0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.promotion>p {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 786px;
+  margin-bottom: 73px;
+}
+
+.promotion>a {
+  position: relative;
+  width: 270px;
+  height: 71px;
+  background: linear-gradient(91.74deg, #33BDE9 4.41%, #004B75 103.21%);
+  border-radius: 50px;
+  border: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  text-transform: uppercase;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.promotion>a:before {
+  position: absolute;
+  border-radius: 50px;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(91.74deg, #33BDE9 4.41%, #33BDE9 103.21%);
+  z-index: -1;
+  transition: opacity 0.3s linear;
+  opacity: 0;
+}
+
+.promotion>a:hover::before {
+  opacity: 1;
+}
+
+/* /PROMOTION */
+/* FOOTER */
+.footer__wrapper {
+  width: 100%;
+  height: 200px;
+  background: #000;
+}
+
+.footer {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 35px 75px;
+}
+
+.footer__logo {
+  width: 55px;
+  height: 55px;
+  margin-right: 110px;
+  background-image: url("../images/icons/galaxy.svg");
+}
+
+.footer__contacts {
+  width: 180px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.footer__contacts>p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.footer__contacts>.icons {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__contacts .whatsapp {
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/icons/whatsapp.svg");
+}
+
+.footer__contacts .telegram {
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/icons/telegram.svg");
+}
+
+.footer__contacts .email {
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/icons/email.svg");
+}
+
+.footer__developedBy {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.footer__developedBy>span {
+  color: #439edf;
+}
+
+/* /FOOTER */

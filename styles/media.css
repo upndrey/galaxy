@@ -1,0 +1,167 @@
+@media (max-width: 1199.98px) {
+
+  /* GLOBAL */
+  .container {
+    width: 990px;
+  }
+
+  /* /GLOBAL */
+  /* HEADER */
+  .header {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .header>* {
+    width: auto;
+  }
+
+  .header__title {
+    text-align: center;
+  }
+
+  .header__slogan {
+    width: 500px;
+    text-align: center;
+  }
+
+  /* /HEADER */
+  /* PROMOTION */
+  .promotion {
+    padding: 132px 15px;
+  }
+
+  .promotion>p {
+    width: 100%;
+  }
+
+  /* /PROMOTION */
+  /* FOOTER */
+  /* /FOOTER */
+}
+
+@media (max-width: 991.98px) {
+
+  /* GLOBAL */
+  .container {
+    width: 768px;
+  }
+
+  /* /GLOBAL */
+  /* FOOTER */
+  .footer__wrapper {
+    height: auto;
+  }
+
+  .footer {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__logo {
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+
+  .footer__contacts {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .footer__developedBy {
+    text-align: center;
+  }
+
+  /* /FOOTER */
+}
+
+@media (max-width: 767.98px) {
+
+  /* GLOBAL */
+  .container {
+    width: 576px;
+  }
+
+  /* /GLOBAL */
+  /* PROMOTION */
+  .promotion {
+    padding: 132px 15px 50px 15px;
+  }
+
+  .promotion>h1 {
+    font-size: 48px;
+    width: 475px;
+  }
+
+  .promotion>p {
+    font-size: 22px;
+    width: 475px;
+  }
+
+  /* /PROMOTION */
+}
+
+@media (max-width: 575.98px) {
+
+  /* GLOBAL */
+  .wrapper {
+    min-height: auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  /* /GLOBAL */
+  /* HEADER */
+  .header__wrapper {
+    height: auto;
+  }
+
+  .header {
+    padding: 15px 0;
+    box-sizing: border-box;
+  }
+
+  .header__title {
+    margin-bottom: 15px;
+  }
+
+  .header__slogan {
+    width: 310px;
+    margin-bottom: 15px;
+  }
+
+  /* /HEADER */
+  /* PROMOTION */
+  .promotion {
+    padding: 132px 5px 50px 5px;
+  }
+
+  .promotion>h1 {
+    font-size: 34px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .promotion>p {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .promotion>a {
+    margin: auto;
+  }
+
+  /* /PROMOTION */
+}
