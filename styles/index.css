@@ -23,6 +23,7 @@ a {
 }
 
 .wrapper {
+  position: relative;
   min-height: calc(100vh - 200px);
 }
 
@@ -78,9 +79,9 @@ a {
 /* PROMOTION */
 .promotion {
   box-sizing: border-box;
-  padding: 132px 230px;
-  margin-bottom: 98px;
+  padding: 132px 230px 230px 230px;
   align-self: flex-start;
+  position: relative;
 }
 
 .promotion>h1 {
@@ -152,6 +153,19 @@ a {
 
 .promotion>a:hover::before {
   opacity: 1;
+}
+
+.promotion>.grid {
+  position: absolute;
+  left: 300;
+  bottom: -750px;
+  width: 968px;
+  height: 1128px;
+  opacity: 0.4;
+  transform: rotate(-90deg);
+  background-image: url("../images/grid.png");
+  background-repeat: no-repeat;
+  z-index: 99;
 }
 
 /* /PROMOTION */
