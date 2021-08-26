@@ -79,7 +79,7 @@ a {
 /* PROMOTION */
 .promotion {
   box-sizing: border-box;
-  padding: 132px 230px 230px 230px;
+  padding: 102px 230px 230px 230px;
   align-self: flex-start;
   position: relative;
 }
@@ -247,8 +247,12 @@ a {
   line-height: 100%;
 }
 
-.footer__developedBy>span {
+.footer__developedBy span {
   color: #439edf;
+}
+
+.footer__developedBy>.footer__logo {
+  display: none;
 }
 
 /* /FOOTER */

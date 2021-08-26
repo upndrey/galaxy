@@ -7,26 +7,29 @@
 
   /* /GLOBAL */
   /* HEADER */
-  .header {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  .header__wrapper {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
     -ms-align-items: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    -ms-align-items: center;
+    height: 100px;
   }
 
   .header>* {
     width: auto;
   }
 
-  .header__title {
-    text-align: center;
-  }
-
   .header__slogan {
-    width: 500px;
+    width: 100%;
     text-align: center;
+    order: 3;
   }
 
   /* /HEADER */
@@ -66,9 +69,8 @@
     justify-content: center;
   }
 
-  .footer__logo {
-    margin-right: 0;
-    margin-bottom: 35px;
+  .footer>.footer__logo {
+    display: none;
   }
 
   .footer__contacts {
@@ -79,6 +81,20 @@
 
   .footer__developedBy {
     text-align: center;
+  }
+
+  .footer__developedBy {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer__developedBy>.footer__logo {
+    margin-right: 25px;
+    display: block;
   }
 
   /* /FOOTER */
@@ -128,23 +144,24 @@
   }
 
   .header {
-    padding: 15px 0;
+    padding: 15px;
+    height: auto;
     box-sizing: border-box;
   }
 
-  .header__title {
-    margin-bottom: 15px;
+  .header__title, .header__phone {
+    font-size: 18px;
   }
 
   .header__slogan {
-    width: 310px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 16px;
   }
 
   /* /HEADER */
   /* PROMOTION */
   .promotion {
-    padding: 132px 5px 50px 5px;
+    padding: 82px 15px 175px 15px;
   }
 
   .promotion>h1 {
@@ -161,6 +178,51 @@
 
   .promotion>a {
     margin: auto;
+  }
+
+  /* /PROMOTION */
+  /* FOOTER */
+  .footer {
+    padding: 35px 15px;
+  }
+
+  .footer__developedBy>.footer__logo {
+    margin-right: 15px;
+  }
+
+  .footer__developedBy>div:last-child {
+    width: 175px;
+  }
+
+  /* /FOOTER */
+}
+
+@media (max-width: 374.98px) {
+
+  /* HEADER */
+  .header__wrapper {
+    height: auto;
+  }
+
+  .header {
+    padding: 5px;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .header__title, .header__phone {
+    font-size: 17px;
+  }
+
+  .header__slogan {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  /* /HEADER */
+  /* PROMOTION */
+  .promotion {
+    padding: 132px 5px 175px 5px;
   }
 
   /* /PROMOTION */
