@@ -157,12 +157,11 @@ a {
 
 .promotion>.grid {
   position: absolute;
-  left: 300;
-  bottom: -750px;
-  width: 968px;
-  height: 1128px;
+  left: 200px;
+  bottom: -165px;
+  width: 1052px;
+  height: 350px;
   opacity: 0.4;
-  transform: rotate(-90deg);
   background-image: url("../images/grid.png");
   background-repeat: no-repeat;
   z-index: 99;
