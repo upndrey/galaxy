@@ -108,9 +108,15 @@
   }
 
   /* /GLOBAL */
+  /* HEADER */
+  .header__slogan {
+    display: none;
+  }
+
+  /* /HEADER */
   /* PROMOTION */
   .promotion {
-    padding: 132px 15px 50px 15px;
+    padding: 132px 15px 150px 15px;
   }
 
   .promotion>h1 {
@@ -167,13 +173,13 @@
   .promotion>h1 {
     font-size: 34px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .promotion>p {
     font-size: 18px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
 
   .promotion>a {

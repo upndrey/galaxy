@@ -187,14 +187,14 @@ a {
 }
 
 .footer__logo {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   margin-right: 110px;
   background-image: url("../images/icons/galaxy.svg");
+  background-size: cover;
 }
 
 .footer__contacts {
-  width: 180px;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -207,10 +207,11 @@ a {
 .footer__contacts>p {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   margin: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .footer__contacts>.icons {
@@ -222,28 +223,35 @@ a {
   justify-content: space-between;
 }
 
+.footer__contacts>.icons>* {
+  margin: 0 30px;
+}
+
 .footer__contacts .whatsapp {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-image: url("../images/icons/whatsapp.svg");
+  background-size: cover;
 }
 
 .footer__contacts .telegram {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-image: url("../images/icons/telegram.svg");
+  background-size: cover;
 }
 
 .footer__contacts .email {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-image: url("../images/icons/email.svg");
+  background-size: cover;
 }
 
 .footer__developedBy {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 100%;
 }
 
