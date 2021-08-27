@@ -167,7 +167,7 @@
   /* /HEADER */
   /* PROMOTION */
   .promotion {
-    padding: 82px 15px 175px 15px;
+    padding: 82px 15px 200px 15px;
   }
 
   .promotion>h1 {
@@ -193,7 +193,7 @@
   }
 
   .footer__developedBy>.footer__logo {
-    margin-right: 15px;
+    display: none;
   }
 
   /* /FOOTER */
@@ -228,7 +228,4 @@
   }
 
   /* /PROMOTION */
-  .footer__developedBy>div:last-child {
-    width: 175px;
-  }
 }
