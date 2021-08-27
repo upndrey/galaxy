@@ -196,10 +196,6 @@
     margin-right: 15px;
   }
 
-  .footer__developedBy>div:last-child {
-    width: 175px;
-  }
-
   /* /FOOTER */
 }
 
@@ -232,4 +228,7 @@
   }
 
   /* /PROMOTION */
+  .footer__developedBy>div:last-child {
+    width: 175px;
+  }
 }
