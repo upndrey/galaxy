@@ -103,6 +103,10 @@
 @media (max-width: 767.98px) {
 
   /* GLOBAL */
+  html {
+    zoom: 1;
+  }
+
   .container {
     width: 576px;
   }
